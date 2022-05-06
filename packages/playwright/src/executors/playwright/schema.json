@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "cli": "nx",
+  "title": "Playwright Target",
+  "description": "Playwright target option for Build Facade.",
+  "type": "object",
+  "outputCapture": "pipe",
+  "properties": {
+    "playwrightConfig": {
+      "type": "string",
+      "description": "The path of the Playwright configuration file."
+    }
+  },
+  "required": ["playwrightConfig"]
+}
